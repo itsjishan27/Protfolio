@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,856 +6,325 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Jishan's personal portfolio website - Web Development, Projects and Contact Information.">
-
-    <meta name="author" content="Jishan">
-
     <title>Jishan | Portfolio</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="XOXO.jpg">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="Style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
+<body style="
+    background-image: url('PVT.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+">
 
-<body>
+    <!-- ================= HEADER ================= -->
+    <header>
+        <div class="container">
 
-    <!-- =========================================
-         BACKGROUND OVERLAY
-    ========================================== -->
+            <h1>
+                <i class="fa-solid fa-laptop"></i>
+                JISHAN
+            </h1>
 
-    <div class="background-overlay"></div>
-
-
-    <!-- =========================================
-         HEADER
-    ========================================== -->
-
-    <header id="header">
-
-        <div class="container navbar">
-
-            <!-- LOGO -->
-
-            <a href="#home" class="logo">
-                <i class="fa-solid fa-laptop-code"></i>
-                <span>JISHAN</span>
-            </a>
-
-
-            <!-- MOBILE MENU BUTTON -->
-
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                aria-label="Open navigation menu">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-
-
-            <!-- NAVIGATION -->
-
-            <nav id="navMenu">
-
+            <nav>
                 <ul>
-
                     <li>
-                        <a href="#home" class="nav-link active">
-                            Home
-                        </a>
+                        <a href="#about">About Me</a>
                     </li>
 
                     <li>
-                        <a href="#about" class="nav-link">
-                            About Me
-                        </a>
+                        <a href="#education">Portfolio</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" class="nav-link">
-                            Portfolio
-                        </a>
+                        <a href="#contact">Contact</a>
                     </li>
-
-                    <li>
-                        <a href="#contact" class="nav-link">
-                            Contact
-                        </a>
-                    </li>
-
                 </ul>
-
             </nav>
 
         </div>
-
     </header>
 
 
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+
+        <div class="container"
+            style="
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                gap:40px;
+            ">
+
+            <!-- TEXT CONTENT -->
+            <div>
+
+                <h1 style="
+                    font-size:40px;
+                    color:#264c71;
+                ">
+                    Hi There 👋
+                </h1>
+
+                <h2 style="
+                    font-size:35px;
+                ">
+                    I'm
+                    <span style="color:#e55f2a;">
+                        J!s49n
+                    </span>
+                </h2>
+
+                <p style="
+                    font-size:22px;
+                    color:#264c71;
+                ">
+                    I Am Into
+                    <span style="color:#d76332;">
+                        Web Development
+                    </span>
+                </p>
+
+
+                <!-- CONTACT BUTTON -->
+                <a href="#contact"
+                    class="section-btn"
+                    style="
+                        text-decoration:none;
+                        margin-top:10px;
+                    ">
+                    Contact
+                </a>
+
+
+                <!-- ================= SOCIAL ICONS ================= -->
+                <div class="social-slider"
+                    style="
+                        margin-top:20px;
+                        display:flex;
+                        gap:15px;
+                    ">
+
+                    <!-- FACEBOOK -->
+                    <a class="fb"
+                        href="https://www.facebook.com/its.J1sh4n"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook fa-2x"
+                            style="color:#4f83de;">
+                        </i>
+
+                    </a>
+
+
+                    <!-- WHATSAPP -->
+                    <a class="fb"
+                        href="https://wa.me/1637087162"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+
+                        <i class="fa-brands fa-whatsapp fa-2x"
+                            style="color:#41ba2f;">
+                        </i>
+
+                    </a>
+
+
+                    <!-- TELEGRAM -->
+                    <a class="fb"
+                        href="https://t.me/virus.exe27"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Telegram">
+
+                        <i class="fa-brands fa-telegram fa-2x"
+                            style="color:#74C0FC;">
+                        </i>
+
+                    </a>
+
 
-    <!-- =========================================
-         HERO / HOME
-    ========================================== -->
+                    <!-- INSTAGRAM -->
+                    <a class="fb"
+                        href="https://www.instagram.com/itz_jishan27"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram">
 
-    <main>
+                        <i class="fa-brands fa-instagram fa-2x"
+                            style="color:#e916c3;">
+                        </i>
 
-        <section id="home" class="hero">
-
-            <div class="container hero-container">
-
-                <!-- HERO TEXT -->
-
-                <div class="hero-content reveal-left">
-
-                    <p class="small-heading">
-                        <i class="fa-solid fa-code"></i>
-                        Welcome to my portfolio
-                    </p>
-
-                    <h1>
-                        Hi There
-                        <span class="wave">👋</span>
-                    </h1>
-
-                    <h2>
-                        I'm
-                        <span class="highlight">
-                            J!s49n
-                        </span>
-                    </h2>
-
-                    <p class="hero-description">
-                        I am into
-                        <span class="typing-text">
-                            Web Development
-                        </span>
-                    </p>
-
-
-                    <!-- BUTTONS -->
-
-                    <div class="hero-buttons">
-
-                        <a href="#contact" class="btn primary-btn">
-                            Contact Me
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                        <a href="#portfolio" class="btn secondary-btn">
-                            View My Work
-                            <i class="fa-solid fa-briefcase"></i>
-                        </a>
-
-                    </div>
-
-
-                    <!-- SOCIAL ICONS -->
-
-                    <div class="social-links">
-
-                        <!-- FACEBOOK -->
-
-                        <a
-                            href="https://www.facebook.com/its.J1sh4n"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social facebook"
-                            aria-label="Facebook">
-
-                            <i class="fa-brands fa-facebook-f"></i>
-
-                        </a>
-
-
-                        <!-- WHATSAPP -->
-
-                        <a
-                            href="https://wa.me/8801637087162"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social whatsapp"
-                            aria-label="WhatsApp">
-
-                            <i class="fa-brands fa-whatsapp"></i>
-
-                        </a>
-
-
-                        <!-- TELEGRAM -->
-
-                        <a
-                            href="https://t.me/virus.exe27"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social telegram"
-                            aria-label="Telegram">
-
-                            <i class="fa-brands fa-telegram"></i>
-
-                        </a>
-
-
-                        <!-- INSTAGRAM -->
-
-                        <a
-                            href="https://www.instagram.com/itz_jishan27"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social instagram"
-                            aria-label="Instagram">
-
-                            <i class="fa-brands fa-instagram"></i>
-
-                        </a>
-
-
-                        <!-- GITHUB -->
-
-                        <a
-                            href="https://github.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social github"
-                            aria-label="GitHub">
-
-                            <i class="fa-brands fa-github"></i>
-
-                        </a>
-
-
-                        <!-- LINKEDIN -->
-
-                        <a
-                            href="https://www.linkedin.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social linkedin"
-                            aria-label="LinkedIn">
-
-                            <i class="fa-brands fa-linkedin-in"></i>
-
-                        </a>
-
-
-                        <!-- YOUTUBE -->
-
-                        <a
-                            href="https://www.youtube.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="social youtube"
-                            aria-label="YouTube">
-
-                            <i class="fa-brands fa-youtube"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- PROFILE IMAGE -->
-
-                <div class="hero-image reveal-right">
-
-                    <div class="image-glow"></div>
-
-                    <div class="profile-ring">
-
-                        <img
-                            src="XOXO.jpg"
-                            alt="Jishan Profile Photo">
-
-                    </div>
-
-                    <div class="floating-card card-one">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Developer</span>
-                    </div>
-
-                    <div class="floating-card card-two">
-                        <i class="fa-solid fa-laptop"></i>
-                        <span>Creative</span>
-                    </div>
+                    </a>
 
                 </div>
 
             </div>
 
-            <!-- SCROLL DOWN -->
 
-            <a href="#about" class="scroll-down">
+            <!-- PROFILE IMAGE -->
+            <div class="about-image">
 
-                <span>Scroll Down</span>
-
-                <i class="fa-solid fa-chevron-down"></i>
-
-            </a>
-
-        </section>
-
-
-
-        <!-- =========================================
-             ABOUT
-        ========================================== -->
-
-        <section id="about" class="section about-section">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p>
-                        <i class="fa-solid fa-user"></i>
-                        About Me
-                    </p>
-
-                    <h2>
-                        Get To Know Me
-                    </h2>
-
-                    <span></span>
-
-                </div>
-
-
-                <div class="about-grid">
-
-                    <!-- ABOUT IMAGE -->
-
-                    <div class="about-image reveal-left">
-
-                        <div class="about-image-box">
-
-                            <img
-                                src="XOXO.jpg"
-                                alt="Jishan">
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- ABOUT TEXT -->
-
-                    <div class="about-content reveal-right">
-
-                        <h3>
-                            I'm Jishan
-                        </h3>
-
-                        <h4>
-                            Web Developer & Creative Learner
-                        </h4>
-
-                        <p>
-                            I'm interested in web development and
-                            technology. I enjoy creating websites,
-                            learning new technologies and turning
-                            ideas into real projects.
-                        </p>
-
-                        <p>
-                            My goal is to continuously improve my
-                            skills and build useful, attractive and
-                            user-friendly digital experiences.
-                        </p>
-
-
-                        <!-- INFO -->
-
-                        <div class="about-info">
-
-                            <div class="info-item">
-
-                                <i class="fa-solid fa-user"></i>
-
-                                <div>
-                                    <span>Name</span>
-                                    <strong>Jishan</strong>
-                                </div>
-
-                            </div>
-
-
-                            <div class="info-item">
-
-                                <i class="fa-solid fa-code"></i>
-
-                                <div>
-                                    <span>Interest</span>
-                                    <strong>Web Development</strong>
-                                </div>
-
-                            </div>
-
-
-                            <div class="info-item">
-
-                                <i class="fa-solid fa-location-dot"></i>
-
-                                <div>
-                                    <span>Location</span>
-                                    <strong>Bangladesh</strong>
-                                </div>
-
-                            </div>
-
-
-                            <div class="info-item">
-
-                                <i class="fa-solid fa-envelope"></i>
-
-                                <div>
-                                    <span>Email</span>
-                                    <strong>Available below</strong>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <a href="#contact" class="btn primary-btn">
-                            Let's Talk
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </a>
-
-                    </div>
-
-                </div>
+                <img src="XOXO.jpg"
+                    alt="Jishan Profile Image"
+                    style="
+                        width:300px;
+                        height:300px;
+                        object-fit:cover;
+                        border-radius:50%;
+                    ">
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
 
-        <!-- =========================================
-             PORTFOLIO
-        ========================================== -->
+    <!-- ================= PORTFOLIO ================= -->
+    <section id="education">
 
-        <section id="portfolio" class="section portfolio-section">
+        <div class="container">
 
-            <div class="container">
+            <h2 style="
+                text-align:center;
+            ">
+                Portfolio
+            </h2>
 
-                <div class="section-heading reveal">
+
+            <div class="portfolio-items">
+
+
+                <!-- PROJECT 1 -->
+                <div class="portfolio-item">
+
+                    <h3>
+                        Project 1
+                    </h3>
+
+                    <img src="Burger.jpg"
+                        alt="Project 1"
+                        style="
+                            height:175px;
+                            width:250px;
+                        ">
 
                     <p>
-                        <i class="fa-solid fa-briefcase"></i>
-                        My Work
-                    </p>
+                        Welcome to our vibrant vlogging platform
+                        where every moment becomes a story worth sharing.
 
-                    <h2>
-                        Portfolio
-                    </h2>
-
-                    <span></span>
-
-                </div>
-
-
-                <div class="portfolio-items">
-
-
-                    <!-- =================================
-                         PROJECT 1
-                    ================================== -->
-
-                    <article class="portfolio-item reveal">
-
-                        <div class="project-image">
-
-                            <img
-                                src="Burger.jpg"
-                                alt="Project 1">
-
-                            <div class="project-overlay">
-
-                                <a
-                                    href="project1.html"
-                                    class="project-link"
-                                    aria-label="Open Project 1">
-
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <span class="project-number">
-                                01
-                            </span>
-
-                            <h3>
-                                Vlogging Platform
-                            </h3>
-
-                            <p>
-                                Welcome to our vibrant vlogging
-                                platform where every moment becomes
-                                a story worth sharing.
-                            </p>
-
-
-                            <div class="project-tags">
-
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-
-                            </div>
-
-
-                            <a
-                                href="project1.html"
-                                class="read-more">
-
-                                Read More
-
-                                <i class="fa-solid fa-arrow-right"></i>
-
+                        <b>
+                            <a href="#">
+                                Read more..
                             </a>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- =================================
-                         PROJECT 2
-                    ================================== -->
-
-                    <article class="portfolio-item reveal">
-
-                        <div class="project-image">
-
-                            <img
-                                src="Shezwan.jpg"
-                                alt="Project 2">
-
-                            <div class="project-overlay">
-
-                                <a
-                                    href="project2.html"
-                                    class="project-link"
-                                    aria-label="Open Project 2">
-
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <span class="project-number">
-                                02
-                            </span>
-
-                            <h3>
-                                Creative Web Project
-                            </h3>
-
-                            <p>
-                                A creative web project designed
-                                with a clean interface and modern
-                                responsive layout.
-                            </p>
-
-
-                            <div class="project-tags">
-
-                                <span>Web Design</span>
-                                <span>Responsive</span>
-                                <span>UI</span>
-
-                            </div>
-
-
-                            <a
-                                href="project2.html"
-                                class="read-more">
-
-                                Read More
-
-                                <i class="fa-solid fa-arrow-right"></i>
-
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- =================================
-                         ADD PROJECT CARD
-                    ================================== -->
-
-                    <article class="portfolio-item add-project reveal">
-
-                        <div class="add-project-content">
-
-                            <div class="add-icon">
-
-                                <i class="fa-solid fa-plus"></i>
-
-                            </div>
-
-                            <h3>
-                                More Projects Coming Soon
-                            </h3>
-
-                            <p>
-                                I'm continuously learning and
-                                working on new projects.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             CONTACT
-        ========================================== -->
-
-        <section id="contact" class="section contact-section">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p>
-                        <i class="fa-solid fa-paper-plane"></i>
-                        Contact
+                        </b>
                     </p>
 
-                    <h2>
-                        Contact Me
-                    </h2>
+                </div>
 
-                    <span></span>
+
+
+                <!-- PROJECT 2 -->
+                <div class="portfolio-item">
+
+                    <h3>
+                        Project 2
+                    </h3>
+
+                    <img src="Shezwan.jpg"
+                        alt="Project 2"
+                        style="
+                            height:175px;
+                            width:250px;
+                            object-fit:cover;
+                        ">
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit.
+                        Tempor incididunt ut labore et
+                        dolore magna aliqua.
+                    </p>
 
                 </div>
 
 
-                <div class="contact-grid">
-
-
-                    <!-- CONTACT TEXT -->
-
-                    <div class="contact-text reveal-left">
-
-                        <h3>
-                            Let's Work Together
-                        </h3>
-
-                        <p>
-                            Feel free to reach out to me for
-                            questions, projects, collaborations
-                            or just to say hello.
-                        </p>
-
-
-                        <!-- EMAIL -->
-
-                        <a
-                            href="mailto:mdmohibullahkazi56@gmail.com"
-                            class="contact-item">
-
-                            <div class="contact-icon">
-
-                                <i class="fa-solid fa-envelope"></i>
-
-                            </div>
-
-                            <div>
-
-                                <span>Email</span>
-
-                                <strong>
-                                    mdmohibullahkazi56@gmail.com
-                                </strong>
-
-                            </div>
-
-                        </a>
-
-
-                        <!-- PHONE -->
-
-                        <a
-                            href="tel:+8801874892356"
-                            class="contact-item">
-
-                            <div class="contact-icon">
-
-                                <i class="fa-solid fa-phone"></i>
-
-                            </div>
-
-                            <div>
-
-                                <span>Phone</span>
-
-                                <strong>
-                                    +880 1874892356
-                                </strong>
-
-                            </div>
-
-                        </a>
-
-
-                        <!-- WHATSAPP -->
-
-                        <a
-                            href="https://wa.me/8801637087162"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="contact-item">
-
-                            <div class="contact-icon whatsapp-icon">
-
-                                <i class="fa-brands fa-whatsapp"></i>
-
-                            </div>
-
-                            <div>
-
-                                <span>WhatsApp</span>
-
-                                <strong>
-                                    Chat with me
-                                </strong>
-
-                            </div>
-
-                        </a>
-
-                    </div>
-
-
-
-                    <!-- CONTACT CARD -->
-
-                    <div class="contact-card reveal-right">
-
-                        <div class="contact-card-icon">
-
-                            <i class="fa-solid fa-comments"></i>
-
-                        </div>
-
-                        <h3>
-                            Have a project in mind?
-                        </h3>
-
-                        <p>
-                            Let's turn your idea into something
-                            useful and beautiful.
-                        </p>
-
-                        <a
-                            href="mailto:mdmohibullahkazi56@gmail.com"
-                            class="btn primary-btn">
-
-                            Send Email
-
-                            <i class="fa-solid fa-paper-plane"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
             </div>
 
-        </section>
+        </div>
 
-    </main>
+    </section>
 
 
 
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
+    <!-- ================= CONTACT ================= -->
+    <section id="contact"
+        style="
+            background-color:#e6e5e3;
+        ">
 
-    <footer>
+        <div class="container">
 
-        <div class="container footer-content">
-
-            <div class="footer-logo">
-
-                <i class="fa-solid fa-laptop-code"></i>
-
-                <span>JISHAN</span>
-
-            </div>
-
+            <h2>
+                Contact Me
+            </h2>
 
             <p>
-                &copy; 2024 -
-                <span id="currentYear">2026</span>
-                Jishan. All Rights Reserved.
+                Feel free to reach out:
             </p>
 
 
-            <a href="#home" class="back-to-top">
+            <ul>
 
-                <i class="fa-solid fa-arrow-up"></i>
+                <li>
+                    Email:
+                    <a href="mailto:mdmohibullahkazi56@gmail.com">
+                        mdmohibullahkazi56@gmail.com
+                    </a>
+                </li>
 
-            </a>
+                <li>
+                    Phone:
+                    <a href="tel:+8801874892356">
+                        +880 1874892356
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                &copy; 2024-2026 Programmer
+                <i>Jishan</i>
+            </p>
 
         </div>
 
     </footer>
 
 
-
-    <!-- JavaScript -->
-
-    <script src="script.js"></script>
-
 </body>
-
 </html>
+```
